@@ -6474,7 +6474,7 @@ namespace {
       PointerWidth = 16; PointerAlign = 8;
       SizeType = UnsignedInt;
       IntMaxType = SignedLong;
-      UIntMaxType = UnsignedLong;
+      // UIntMaxType = UnsignedLong;
       IntPtrType = SignedShort;
       PtrDiffType = SignedInt;
       SigAtomicType = SignedLong;
