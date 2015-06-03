@@ -6478,7 +6478,7 @@ namespace {
       IntPtrType = SignedShort;
       PtrDiffType = SignedInt;
       SigAtomicType = SignedLong;
-      DescriptionString = "e-p:16:8:8-i8:8:8-i16:8:8-n8:16";
+      DescriptionString = "e-p:16:8-i16:8-n8:16";
     }
     virtual void getTargetDefines(const LangOptions &Opts,
                                   MacroBuilder &Builder) const {
